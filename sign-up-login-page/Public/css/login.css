@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* variables  */
+:root {
+    --primary: #000000e4;
+    --secondary: white;
+    --secondaryText: black;
+    --side1_bg_color: yellow;
+    --side2_bg_color: white;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-container-1 {
+    width: 700px;
+    height: 70vh;
+    background-color: var(--secondary);
+    color: var(--secondaryText);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+.division-1 {
+    background-color: rgba(50, 46, 46, 0.49);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    background-image: url('../images/img-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    color: white;
+    border-radius: 0 20px 20px 0;
+}
+
+.division-2 {
+    background-color: var(--side2_bg_color);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+}
+
+.d1-1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.d1-2 {
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.d2-1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.d2-2 {
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form-input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    width: 100%;
+    outline: 0;
+    margin-top: 15px;
+}
+
+#login-btn {
+    margin-top: 25px;
+    background-color: var(--primary);
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.signup_info {
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup_info_btn {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#error-message {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-size: 14px;
+}

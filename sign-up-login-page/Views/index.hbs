@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="s-container-1">
+            <div class="division-1">
+                <div class="d1-1">Hello World</div>
+                <div class="d1-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                    has been the
+                    industry's standard dummy text ever since the 1500s.</div>
+            </div>
+            <div class="division-2">
+                <div class="d2-1">save your account now</div>
+                <div class="d2-2">get unlimited discounts from purchases!</div>
+
+                <div id="registration-success">
+                    <div class="rs-1-head">
+                        <img src="/images/check.png" alt="success" width="32px">
+                        <div class="rs-1">Registration Successful</div>
+                    </div>
+                    <div class="rs-2">You will be redirected to the login screen, if not goto login</div>
+                </div>
+
+                <div class="form">
+                    <div>
+                        <input type="text" name="full-name" id="user-full-name" placeholder="Full Name"
+                            class="form-input">
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="user-email" placeholder="Email" class="form-input">
+                    </div>
+                    <div>
+                        <input type="password" name="password" id="user-password" placeholder="Password"
+                            class="form-input">
+                    </div>
+
+                    <div id="error-message"></div>
+
+                    <div id="sign-up-btn" onclick="sign_up()">sign up</div>
+                    <div class="login_info">
+                        <span>Already have an account?</span>
+                        <a href="/login" class="login_info_btn">login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/js/index.js"></script>
+
+</html>
